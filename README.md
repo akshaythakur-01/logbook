@@ -31,10 +31,6 @@ Employees at businesses and technical institutes set aside a significant amount 
 - Its hardware and software setup don't cost a lot of money.
 - Admin can easily track and analyse work done by the employees.
 
-## Guide
-You can directly go on to the website https://managementofemployee.herokuapp.com , which hosts our app, and test it out with the credentials given in the next section of guide.
-
-            OR     YOU      CAN     TEST    LOCALLY     BY
             
 Our app comprises of two processes, namely
 - Frontend (React)
@@ -42,7 +38,7 @@ Our app comprises of two processes, namely
 
 So both the processes need to be running concurrently for the proper functioning of the app. We do so by following the following steps :
 1. Download the folder on your local machine to whatever location you feel comfortable with as a zip and unzip it.
-2. Create a new file in the folder just parallel to index.js named as “.env”  and paste the following line on that file ``   URI = "mongodb+srv://prasoonraj:prasoontan1@cluster0.psjnyyn.mongodb.net/?retryWrites=true&w=majority"    ’’ 
+2. Create a new file in the folder just parallel to index.js named as “.env”  and paste the atlas cluster link on that file ``   URI =""
 3. Open two concurrent terminals for two separate processes as discussed above, and move to the project folder on both terminals.
 4. Run npm  install on one of the terminals, and then after that process, run npm start on it, which will run our backend Server.
 5. On second terminal do “cd Frontend”  to move to our frontend server and type “npm install” after that is done type “npm start” to start our frontend server.
